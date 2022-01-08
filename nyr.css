@@ -1,0 +1,313 @@
+        * {
+            box-sizing: border-box;
+        } 
+        .bodyMain {
+            margin-left: 15%;
+            margin-right: 15%;
+            position: absolute;
+            background-image: url(images/bg1.png);
+        }
+        
+        .nav-image {
+            width: 6em;
+            height: 4em;
+        }
+        
+        .leftLogo {
+            height: 4em;
+            width: auto;
+        }
+        .rightLogo {
+            height: 7em;
+            width: auto;
+        }
+        .navLink {
+            font-size: 1.5em;
+            padding-top: 1.2em;
+            opacity: 0;
+            transition: opacity 1.5s;
+        }
+        
+        .navbar-nav img:hover+.navLink {
+            opacity: 1;
+            color: black;
+            font-size: 1.2em;
+        }
+        .foot h6 {
+            margin-top: 2em;
+            text-align: center;
+        }
+        .foot img {
+            height: 5em;
+            width:auto;
+        }
+        .header h1 {
+            padding-top: 4em;
+            font-size: 3em;
+            color: blue;
+        }
+        .header h3 {
+            padding-top: 1em;
+            font-size: 2em;
+            margin-bottom: 2em;
+            color: rgb(255, 110, 57)
+        }
+
+        #bodyIndex {
+            height: 100%;
+            background-image: url("images/bluBRZ2.jpg");
+             background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            
+            
+        }
+        .carText {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+        
+    
+        .homeBtn {
+            border-color: black;
+            margin-top: 1em;
+            margin-bottom: 2em;
+            height: 2.5em;
+            width: auto;
+            font-size: 1.2em;
+            color: rgb(11, 11, 228);
+            border-radius: 10px;
+            
+        }
+        
+        .homeBtn:hover {
+            background-color: rgb(255, 101, 45);
+            opacity: 0.8;
+            text-decoration: none;
+            font-weight: bolder;
+            border-radius: 20px
+        }
+
+        .homeRow2{
+            margin-top: 2em;
+            margin-left: 0.2em;
+            margin-right: 0.2em;
+            padding-top: 1em;
+            background: linear-gradient(rgb(192, 227, 238), rgb(232, 231, 241),rgb(192, 227, 238));
+            
+        }
+        footer {
+            margin-top: 3em;
+            margin-bottom: 1em;
+        }
+        .landText {
+            padding-top: 4em;
+            font-weight: bold;
+            color: rgb(240, 82, 24);
+            text-shadow:4px 4px 12px blue;
+        }
+        .landText2 {
+            padding-top: 10em;
+            font-weight: bold;
+            color:white;
+            text-shadow:6px 6px 16px orangered;
+            font-size: 2em;
+           
+        }
+        
+        /* this was borrowed */
+        
+        .carousel-fade .carousel-item {
+            opacity: 0;
+            transition-duration: 1.5s;
+            transition-property: opacity;
+        }
+        
+        .carousel-fade .carousel-item.active,
+        .carousel-fade .carousel-item-next.carousel-item-left,
+        .carousel-fade .carousel-item-prev.carousel-item-right {
+            opacity: 1;
+        }
+        
+        .carousel-fade .active.carousel-item-left,
+        .carousel-fade .active.carousel-item-right {
+            opacity: 0;
+        }
+        
+        .carousel-fade .carousel-item-next,
+        .carousel-fade .carousel-item-prev,
+        .carousel-fade .carousel-item.active,
+        .carousel-fade .active.carousel-item-left,
+        .carousel-fade .active.carousel-item-prev {
+            transform: translateX(0);
+            transform: translate3d(0, 0, 0);
+        }
+        /* I stopped borrowing here */
+        .card {
+            margin-top: 1em;
+            margin-bottom: 1em;
+            padding: 10px;
+            font-size: 1em;    
+        }
+        
+        .card-body {
+            margin-top: 1em;
+            padding-top: 1em;
+            padding-bottom: 1em;
+            margin-bottom: 1em;
+        }
+        
+        .cardHeader {
+            font-size: 1em;
+            text-align: center;
+        }
+        
+        .cardHeader :hover {
+            font-weight: bold;
+            color: blue;
+           
+            
+        }
+        .centerMe {
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        #accordion button {
+            width: 16em;
+            border-color: black;
+        }
+        .mb-0 :hover {
+             background-color: rgba(255, 104, 50, 0.836);
+             text-decoration: none;
+        }
+        .accord {
+            background-image: linear-gradient(to left, #f54d23, #5e6bf5,#2234fa, #515ef0, #f54d23);
+        }
+        .cheadHome {
+            background-image: linear-gradient(rgba(192, 227, 238), rgba(232, 231, 241),rgba(192, 227, 238));
+        }
+        .cbodyHome {
+            background-image: linear-gradient(0.3turn,rgba(248, 140, 101, 0.836), rgba(168, 224, 241), rgba(168, 224, 241), rgba(250, 127, 83, 0.836));
+        }
+        .calBack {
+            padding-top: 4em;
+           background-image: linear-gradient(0.45turn, #66c5eee1, #f06452a9, #1eb9e0cc);
+        }
+        .jumbotron {
+            margin-bottom: none;
+            padding-bottom: none;
+        }
+        .calTable {
+            margin-top: 4em;
+            font-weight: bold;
+        }
+        .siteDir {
+            margin: none;
+    
+            padding-top: 6em;
+            background-image: linear-gradient(0.7turn, #66c5eee1, #f06452a9, #1eb9e0cc);
+        }
+        .siteHead {
+            margin-top: 2em;
+            padding-left: 2em;
+            margin-bottom: 2em;
+            padding-bottom: 2em;
+            background-color: whitesmoke;
+        }
+        .doneBtn {
+            margin-top: 1em;
+        }
+        .multi-collapse {
+            background-image: linear-gradient( rgb(36, 36, 252), rgb(250, 89, 15), rgb(36, 36, 252));
+            color: white;
+        }
+        .border-primary {
+            background-image: linear-gradient(0.5turn,rgba(248, 140, 101, 0.836), rgba(168, 224, 241), rgba(168, 224, 241), rgba(250, 127, 83, 0.836));
+        }
+        .border-info {
+            background-image: linear-gradient( 90deg, rgb(250, 133, 107), rgb(71, 71, 233), rgb(250, 133, 107));
+        }
+
+        /*Small media query properties start here */
+        
+        @media only screen and (max-width: 576px) {
+            /* For mobile phones: */
+            [class*="col-"] {
+                width: 100%;
+            }
+            .bodyMain {
+               margin: 2%;
+            }
+            .foot img {
+                display: none;
+            }
+            .foot h6{
+                  overflow-wrap: break-word;
+                  color: black;
+                  margin-bottom: 1em;
+                  
+            }
+            .navLink {
+                opacity: 1;
+            }
+            #navbarSupportedContent img {
+                 display: none;
+            }
+            .hideMe {
+                display: none;
+            }
+        
+        } 
+        /* END Small media query properties */
+        /* media query definition ends */
+        /* below are media query definitions */
+        /*
+            .col-1 {
+                width: 8.33%;
+            }
+            
+            .col-2 {
+                width: 16.66%;
+            }
+            
+            .col-3 {
+                width: 25%;
+            }
+            
+            .col-4 {
+                width: 33.33%;
+            }
+            
+            .col-5 {
+                width: 41.66%;
+            }
+            
+            .col-6 {
+                width: 50%;
+            }
+            
+            .col-7 {
+                width: 58.33%;
+            }
+            
+            .col-8 {
+                width: 66.66%;
+            }
+            
+            .col-9 {
+                width: 75%;
+            }
+            
+            .col-10 {
+                width: 83.33%;
+            }
+            
+            .col-11 {
+                width: 91.66%;
+            }
+            
+            .col-12 {
+                width: 100%;
+            } */
+    
+        
